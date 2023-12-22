@@ -1,5 +1,6 @@
 const swaggerAutogen = require('swagger-autogen')();
 
+// Konfiguration für die Swagger-Dokumentation
 const doc = {
   info: {
     title: 'My API',
@@ -8,6 +9,7 @@ const doc = {
   host: 'localhost:3000'
 };
 
+// Dateipfad für die Ausgabedatei der Swagger-Dokumentation
 const outputFile = './swagger-output.json';
 const routes = ['./server.js'];
 
