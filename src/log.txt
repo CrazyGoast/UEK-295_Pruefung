@@ -1,0 +1,108 @@
+commit 2e80d0f627783c4f3392ab31a1bf2008415abcc9
+Author: Adrian Bischoff <abischoff8307@gmail.com>
+Date:   Fri Dec 22 15:27:43 2023 +0000
+
+    Addet a README. 22.12.2023 16:27
+
+commit 4abb385633064a8f08f0643c19c647ac3ce4cd63
+Author: Adrian Bischoff <abischoff8307@gmail.com>
+Date:   Fri Dec 22 14:55:51 2023 +0000
+
+    Addet comments in swagger.js for better understanding. 22.12.2023 15:55
+
+commit 8c58be3d5cfd732dd176097ba7735aae212a3a42
+Author: Adrian Bischoff <abischoff8307@gmail.com>
+Date:   Fri Dec 22 14:53:46 2023 +0000
+
+    Addet a description in Authentifizierung.js. 22.12.2023 15:53
+
+commit ff67a44c53dbf7d2065fc7d14937b3f2b1a92c40
+Author: Adrian <105426077+CrazyGoast@users.noreply.github.com>
+Date:   Fri Dec 22 15:46:54 2023 +0100
+
+    Addet .gitignore so that the node_modules don't get pushed on GitHub. 22.12.2023 15:46
+
+commit 7d3a4c66d373742851f74660936ced558c2ecbda
+Merge: 6a1edd5 7d425fe
+Author: Adrian Bischoff <abischoff8307@gmail.com>
+Date:   Fri Dec 22 14:44:13 2023 +0000
+
+    Merge remote-tracking branch 'refs/remotes/origin/master'
+
+commit 6a1edd5b559f9b47019343d1d2f428b743fd70a2
+Author: Adrian Bischoff <abischoff8307@gmail.com>
+Date:   Fri Dec 22 14:42:48 2023 +0000
+
+    Installed and configured .eslintrc.js. 22.12.2023 15:42
+
+commit f04ad91784cab301a37a2f62e1bd1874893da36b
+Author: Adrian Bischoff <abischoff8307@gmail.com>
+Date:   Fri Dec 22 14:42:00 2023 +0000
+
+    Addet code descriptions. 22.12.2023 15:41 Uhr
+
+commit 9d6a407ddc29d93423d5a6cea8b28ac7b2f48f46
+Author: Adrian Bischoff <abischoff8307@gmail.com>
+Date:   Fri Dec 22 14:40:57 2023 +0000
+
+    Addet a header and description to the programm. 22.12.2023 15:40 Uhr
+
+commit 7d425fe7d295ab1eed9c98ba976d2ffcad765965
+Author: Adrian <105426077+CrazyGoast@users.noreply.github.com>
+Date:   Fri Dec 22 15:29:31 2023 +0100
+
+    Addet a description for different code parts.
+
+commit 57f79a8d8bbad5a6e94fd6734644f5b56412b980
+Author: Adrian Bischoff <abischoff8307@gmail.com>
+Date:   Fri Dec 22 14:08:13 2023 +0000
+
+    fixed problems with git
+
+commit d4374f9e12525d1cc43cd0e5f901095dcbeb4d33
+Author: Adrian <105426077+CrazyGoast@users.noreply.github.com>
+Date:   Fri Dec 22 11:07:59 2023 +0100
+
+    Delete swagger.js
+
+commit cf494e6ba4dab96cedf72e161760cec965c2d430
+Author: Adrian <105426077+CrazyGoast@users.noreply.github.com>
+Date:   Fri Dec 22 11:07:47 2023 +0100
+
+    Delete swagger-output.json
+
+commit 7e337d97a1de0c46f524a3c4d01d1126caa110c1
+Author: Adrian <105426077+CrazyGoast@users.noreply.github.com>
+Date:   Fri Dec 22 11:07:36 2023 +0100
+
+    Delete server.js
+
+commit 9b4b240b8598cb732320c61b848729e907a51ae4
+Author: Adrian Bischoff <abischoff8307@gmail.com>
+Date:   Fri Dec 22 10:05:08 2023 +0000
+
+    fixed git isue
+
+commit 4d9a7738d7bdb14593cc96bd8937491be76779b3
+Author: Adrian <105426077+CrazyGoast@users.noreply.github.com>
+Date:   Fri Dec 22 10:56:56 2023 +0100
+
+    Create swagger-output.json
+
+commit 3d203a7cd17810a540e1b7075ea597efdab6ab5d
+Author: Adrian <105426077+CrazyGoast@users.noreply.github.com>
+Date:   Fri Dec 22 10:56:23 2023 +0100
+
+    Create swagger.js
+
+commit 68d3c2a4cccc8a301864ab06d62b324f80c1fa62
+Author: Adrian <105426077+CrazyGoast@users.noreply.github.com>
+Date:   Fri Dec 22 10:55:46 2023 +0100
+
+    Edited server.js
+
+commit 5408c9fb05ee568f4c7f7a5bd3452ed96f0aecb3
+Author: Adrian Bischoff <abischoff8307@gmail.com>
+Date:   Fri Dec 22 07:33:13 2023 +0000
+
+    Created UEK-295_Test and addet .gitignore
