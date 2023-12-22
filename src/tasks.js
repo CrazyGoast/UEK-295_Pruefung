@@ -4,6 +4,7 @@ const router = express.Router();
 
 const { randomUUID } = require('node:crypto');
 
+// Array mit den Tasks (Daten, Namen und id).
 let Tasks = [
   { name: 'Clean my room', until: '30.12.2023', id: '1' },
   { name: 'Walk with the dog.', until: '23.12.2023', id: '2' },
@@ -14,6 +15,7 @@ router.get('/', (request, response) => {
   response.status(200).json(Tasks);
 });
 
+// In diesem Abschnitt kann man mit /tasks/:id die einzelnen Tasks mit der id aufrufen.
 router.get('/tasks/:id', (request, response) => {
   // #swagger.tags = ['Tasks']
   const task = Tasks.find((task) => task.id === request.params.id);
@@ -24,6 +26,9 @@ router.get('/tasks/:id', (request, response) => {
   }
 });
 
+// In diesem Abschnitt kann man einen neuen Task hinzufügen. Wenn der Task keinen namen hat
+// wird zurückgegeben 'Pleas enter a Name.'. Wenn es erstellt wurde wir mit UUID eine zufällige
+// id zum Task hinzugefügt.
 router.post('/', (request, response) => {
   // #swagger.tags = ['Tasks']
   const newTask = request.body;
@@ -36,6 +41,7 @@ router.post('/', (request, response) => {
   }
 });
 
+// Hier kann man einen Task bearbeiten.
 router.patch('/:id', (request, response) => {
   // #swagger.tags = ['Tasks']
   const updateFields = request.body;
@@ -48,11 +54,7 @@ router.patch('/:id', (request, response) => {
   }
 });
 
-router.delete('/:id', (request, response) => {
-  Tasks = Tasks.filter((task) => task.id !== request.params.id);
-  response.status(200).json(Tasks);
-});
-
+// Mit /Taslks/:id kann man eine Task wieder löschen.
 router.delete('/:id', (request, response) => {
   const initialTaskLength = Tasks.length;
   Tasks = Tasks.filter((task) => task.id !== request.params.id);
